@@ -16,8 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-This is a dummy description of this app features
-
+Chyrp Lite makes it possible to host a blog on your own web server with minimal fuss. You can have a traditional blog, a tumbleblog, or you can add oodles of customisation and build a general-purpose web publishing platform with blogging features on the side.
 
 **Shipped version:** 2023.01~ynh1
 ## Documentation and resources
