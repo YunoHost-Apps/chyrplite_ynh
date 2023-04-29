@@ -1,0 +1,60 @@
+packaging_format = 2
+
+id = "chyrplite"
+name = "chyrp-lite"
+description.en = "Ultra-lightweight blogging engine"
+description.fr = "Moteur de blog ultra-léger"
+
+version = "2023.01~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "BSD-3-Clause"
+website = "https://chyrplite.net/"
+admindoc = "https://chyrplite.net/wiki/"
+code = "https://github.com/xenocrat/chyrp-lite"
+
+[integration]
+yunohost = ">= 11.1.18"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/chyrplite"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/xenocrat/chyrp-lite/archive/refs/tags/v2023.01.tar.gz"
+        sha256 = "a16d833b76b2a05b890bdc8f13dd7d1e4933fba6db600ede463db0fd84f90ecb"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "mariadb-server php8.0-fpm php8.0-mysql"
+
+    [resources.database]
+    type = "mysql"
