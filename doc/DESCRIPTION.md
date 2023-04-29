@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Chyrp Lite makes it possible to host a blog on your own web server with minimal fuss. You can have a traditional blog, a tumbleblog, or you can add oodles of customisation and build a general-purpose web publishing platform with blogging features on the side.

@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Chyrp Lite permet d'héberger un blog sur votre propre serveur Web avec un minimum de tracas. Vous pouvez avoir un blog traditionnel, un tumbleblog, ou vous pouvez ajouter des tas de personnalisation et créer une plate-forme de publication Web à usage général avec des fonctionnalités de blogging sur le côté.
