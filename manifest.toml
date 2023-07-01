@@ -16,7 +16,7 @@ admindoc = "https://chyrplite.net/wiki/"
 code = "https://github.com/xenocrat/chyrp-lite"
 
 [integration]
-yunohost = ">= 11.1.20"
+yunohost = ">= 11.1.21"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -54,7 +54,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php8.0-fpm php8.0-mysql"
+    packages = "mariadb-server php8.2-fpm php8.2-mysql"
 
     [resources.database]
     type = "mysql"
