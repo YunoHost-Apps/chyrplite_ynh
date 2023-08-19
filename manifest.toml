@@ -5,7 +5,7 @@ name = "chyrp-lite"
 description.en = "Ultra-lightweight blogging engine"
 description.fr = "Moteur de blog ultra-léger"
 
-version = "2023.01~ynh1"
+version = "2023.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -42,8 +42,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/xenocrat/chyrp-lite/archive/refs/tags/v2023.01.tar.gz"
-        sha256 = "a16d833b76b2a05b890bdc8f13dd7d1e4933fba6db600ede463db0fd84f90ecb"
+        url = "https://github.com/xenocrat/chyrp-lite/archive/refs/tags/v2023.02.tar.gz"
+        sha256 = "9999043c331cef616a6be8e940b28daa6620c81a1b340284f58a475697d73500"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]

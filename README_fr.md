@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Chyrp Lite permet d'héberger un blog sur votre propre serveur Web avec un minimum de tracas. Vous pouvez avoir un blog traditionnel, un tumbleblog, ou vous pouvez ajouter des tas de personnalisation et créer une plate-forme de publication Web à usage général avec des fonctionnalités de blogging sur le côté.
 
-**Version incluse :** 2023.01~ynh1
+**Version incluse :** 2023.2~ynh1
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://chyrplite.net/>
