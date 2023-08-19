@@ -5,7 +5,7 @@ name = "chyrp-lite"
 description.en = "Ultra-lightweight blogging engine"
 description.fr = "Moteur de blog ultra-léger"
 
-version = "2023.2~ynh1"
+version = "2023.02~ynh1"
 
 maintainers = ["eric_G"]
 
